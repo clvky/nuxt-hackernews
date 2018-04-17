@@ -53,10 +53,10 @@ eslint-config-prettier
 #关闭所有不必要的规则或者可能与Prettier冲突的规则。
 
 eslint-plugin-prettier
-#将漂亮者作为ESLint规则运行，并将差异报告为单个ESLint问题。
+#将美化者作为ESLint规则运行，并将差异报告为单个ESLint问题。
 ```
 
-有关如何工作的详细说明，请检查 [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+有关如何工作的详细说明，请查看 [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
 ## 打包
 
