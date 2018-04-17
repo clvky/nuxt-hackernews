@@ -1,0 +1,35 @@
+{
+  "name": "vue2-nuxt-start",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "renxl",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.1",
+    "@nuxtjs/component-cache": "^1.1.1",
+    "@nuxtjs/pwa": "^2.0.8",
+    "apicache": "^1.2.1",
+    "express": "^4.16.3",
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "prettier": "^1.12.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
