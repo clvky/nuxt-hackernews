@@ -56,7 +56,7 @@ export default {
 
   //使用 head 方法设置当前页面的头部标签。
   head() {
-    console.log("_id=========>",this.$route)
+    // console.log("_id=========>",this.$route)
     return {
       title:this.item.title
     }
@@ -64,7 +64,7 @@ export default {
 
   //fetch 方法用于在渲染页面前填充应用的状态树（store）数据， 与 asyncData 方法类似，不同的是它不会设置组件的数据。
   fetch({ store, params: { id } }){
-    console.log("fetch _id---------->",id,store)
+    // console.log("fetch _id---------->",id,store)
     return store.dispatch("FETCH_ITEM", { id })
   },
 

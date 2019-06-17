@@ -1,6 +1,10 @@
 # vue2-nuxt-start
 
-> Nuxt.js 项目
+> Nuxt.js 项目,仅供学习使用
+
+## 截图
+
+![nuxt-hackernews](./screenshot/201906171519.jpg)
 
 ## 构建项目
 

@@ -47,7 +47,7 @@ export default {
 
   //使用 head 方法设置当前页面的头部标签。
   head() {
-    console.log("============>$$this.$route",this.$route)
+    // console.log("============>$$this.$route",this.$route)
     return {
       title: feeds[this.$route.params.feed].title
     }
