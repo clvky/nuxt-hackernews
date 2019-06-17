@@ -4,7 +4,7 @@
 
 ## 截图
 
-![nuxt-hackernews](./screenshot/201906171519.jpg)
+![nuxt-hackernews](./image/201906171519.jpg)
 
 ## 构建项目
 
